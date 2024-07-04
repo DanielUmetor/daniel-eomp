@@ -42,9 +42,6 @@
                     <li :class="['transition-all motion-reduce:transition-none duration-500 delay-[200ms]', showTransition ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
                         <router-link class="block py-2 pl-3 pr-4 hover:text-link-color" to="/#contact-section">Contact</router-link>
                     </li>
-                    <li :class="['transition-all motion-reduce:transition-none duration-500 delay-[200ms]', showTransition ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
-                        <router-link class="block py-2 pl-3 pr-4 hover:text-link-color" to="/#skills-section">Skills</router-link>
-                    </li>
                     <li :class="['transition-all motion-reduce:transition-none duration-500 delay-[250ms]', showTransition ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
                         <a :href="portfolio.greeting.resumeLink" target="_blank">
                             <button class="block py-2 px-6 bg-transparent border border-button-color shadow-sm shadow-button-color text-button-color transition ease-in-out hover:bg-button-color hover:text-white hover:dark:text-slate-300 focus:bg-button-color focus:text-white active:bg-button-color active:text-white duration-300">Resume</button>
@@ -74,9 +71,6 @@
                     </li>
                     <li>
                         <router-link class="block py-5  hover:text-link-color" to="/#work-section">💻 Work</router-link>
-                    </li>
-                    <li>
-                        <router-link class="block py-5  hover:text-link-color" to="/#skills-section">Skills</router-link>
                     </li>
                     <li>
                         <router-link class="block py-5  hover:text-link-color" to="/#contact-section">📭 Contact</router-link>

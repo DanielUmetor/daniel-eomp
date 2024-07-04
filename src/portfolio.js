@@ -100,61 +100,65 @@ const experiences = [
 // --- 💻 Work Section ---
 const works = [
     {
-        projectName: "Awodwa Hendrik",
-        yearCompleted: "Classmate",
-        description: "Daniel is an incredible friend and a brilliant coder. His passion for programming and quick grasp of complex concepts during our coding bootcamp have been truly inspiring. I'm confident he has a bright future ahead in the tech industry.",
-        techStack: "",
-        links: [
-            {
-  
-            },
-            {
-   
-            }
-        ],
-        imageLink: "images/awodwa.jpg",
-        alignLeft: false
-    },
-    {
-        projectName: "Chelsea Julie",
-        yearCompleted: "Classmate",
-        description: "Daniel's dedication and talent have shone brightly throughout our coding bootcamp. His knack for problem-solving and eagerness to help others have made him an invaluable part of our group. I can't wait to see the amazing things he'll achieve in the tech world",
-        techStack: "",
+        projectName: "TrackYourSubs IOS App",
+        yearCompleted: "2022",
+        description: "An IOS app to track you subscriptions and expenses, all the while presenting in a clean and professional look with a load of features. Some of the more evident features are: Budgeting (monthly / yearly option available), Current monthly & yearly total expense at a glance, Custom suggestions to meet budget, Organize (Categorization & Importance) and filter through subscriptions, Reminders via scheduled notifications, Stats page: pie chart visual, bar chart visual, and streak indicator.",
+        techStack: "Swift, SwiftUI",
         links: [
             {
                 label: "",
-                type: "",
-                url: ""
+                type: "git",
+                url: "https://github.com/feifyKike/TrackYourSubsDemo/"
+            },
+            {
+                label: "",
+                type: "external",
+                url: "https://youtu.be/KsTx-F70OOk"
             }
         ],
-        imageLink: "images/betterchelsea.jpg",
+        imageLink: "images/tracksubs_pic.png",
+        alignLeft: false
+    },
+    {
+        projectName: "Dynamic Portfolio Website",
+        yearCompleted: "2021",
+        description: "Developed a personal portfolio website with Python backend using the Django web development framework. Incorporated HTML, CSS, and JavaScript to construct the frontend of the website.",
+        techStack: "Django, Python, HTML, CSS, JS",
+        links: [
+            {
+                label: "",
+                type: "external",
+                url: "https://maximshelepov.com"
+            }
+        ],
+        imageLink: "images/portfolio_pic.png",
         alignLeft: true
     },
     {
-        projectName: "Erin Williams",
-        yearCompleted: "Classmate",
-        description: "Daniel has been a standout in our coding bootcamp, consistently impressing us with his sharp intellect and knack for tackling challenging coding tasks.",
-        techStack: "",
+        projectName: "Sudoku Game & Solver",
+        yearCompleted: "2021",
+        description: "Built a Sudoku game UI incorporating the Java Swing library. Randomly generates a Sudoku puzzle and solves itself using the backtracking algorithm written in Java..",
+        techStack: "Java",
         links: [
             {
                 label: "",
-                type: "",
-                url: ""
+                type: "git",
+                url: "https://github.com/feifyKike/sudokusolver"
             },
             {
                 label: "",
-                type: "",
-                url: ""
+                type: "external",
+                url: "https://youtu.be/lXOjOrjf5hU"
             }
         ],
-        imageLink: "images/erin 2.png",
+        imageLink: "images/sudoku_pic.png",
         alignLeft: false
     },
     {
-        projectName: "Keira Kistensamy",
-        yearCompleted: "",
-        description: "Daniel's journey through the coding bootcamp has been nothing short of inspiring. His commitment to mastering new skills and solving complex problems sets him apart. As a friend, Daniel is always ready to share insights and support, making our learning experience richer. I have no doubt he'll make a significant impact in the tech world",
-        techStack: "",
+        projectName: "Trivia Quiz",
+        yearCompleted: "2020",
+        description: "Interested in taking a fun and interactive pop quiz? Using the HTML, CSS3, JavaScript, and jQuery I created a quiz that can be taken on numerous topics of your choice and gives instant feedback. The entire project is built mostly on JavaScript and all the functionality and events are controlled through functions such as ReadDisplay and Validate. The HTML portion of the online quiz only serves as the skeleton and template for elements that will be created via JS.",
+        techStack: "JS, HTML, CSS",
         links: [
             {
                 label: "",
@@ -167,8 +171,28 @@ const works = [
                 url: "https://codepen.io/Max_the_coder/pen/yLXZOYL" //https://codepen.io/Max_the_coder/pen/yLXZOYL
             }
         ],
-        imageLink: "images/keira.jpg",
+        imageLink: "images/trivia_pic.png",
         alignLeft: true
+    },
+    {
+        projectName: "Coronavirus Report",
+        yearCompleted: "2020",
+        description: "Created a program that displays up-to-date COVID-19 data and shows results in a graphical / visual representation. Coded with the Python programming language and libraries such as Matplotlib, Requests, and CSV.",
+        techStack: "Python",
+        links: [
+            {
+                label: "",
+                type: "git",
+                url: "https://youtu.be/gw5kb1QKVp0"
+            },
+            {
+                label: "",
+                type: "external",
+                url: "https://github.com/feifyKike/Covid-Cases-Visual"
+            }
+        ],
+        imageLink: "images/covid_pic.png",
+        alignLeft: false
     }
 ]
 
@@ -187,7 +211,7 @@ const contact = {
             email: "", // email takes precedance
             other: "https://forms.gle/W3MswTKsPWMxEbn58"
         },
-        responseTimeMessage: "...and I'll respond within the next 24hrs"
+        responseTimeMessage: "...and I'll resopnd within the next 24hrs"
     },
     formEmbedLink: "" // inclusion of this link will take precedance
 }
