@@ -19,13 +19,9 @@
                     <div>
                         <img :src="getImageUrl(content.photo1Link)" class="shadow-md" loading="lazy"/>
                     </div>
-                    <div>
-                        <img :src="getImageUrl(content.photo2Link)" class="shadow-md" loading="lazy"/>
-                    </div>
+                  
                 </div>
-                <div>
-                    <img :src="getImageUrl(content.photo3Link)" class="shadow-md" loading="lazy"/>
-                </div>
+             
             </div>
         </div>
     </section>
