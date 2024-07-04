@@ -76,10 +76,10 @@ import ExperienceView from './ExperienceView.vue'
 import WorkView from './WorkView.vue'
 import ContactView from './ContactView.vue'
 import SplashView from './SplashView.vue'
-import SkillsViewVue from 'SkillsView.vue'
+	
 
 import portfolio from '../portfolio'
-import SkillsViewVue from './SkillsView.vue'
+
 
 const router = useRouter()
 
