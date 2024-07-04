@@ -21,57 +21,50 @@ const splashScreen = true // recommended: for best behavior after refresh
 // --- 👋 Greeting Section ---
 const greeting = {
     intro: "Hello 👋, my name is",
-    name: "Maxim Shelepov",
-    message: "I'm a computer science student and an aspiring software engineer. Currently working as a web developer at my university building tools to aid students, educators, and staff.",
-    basedLocation: "Raleigh, NC",
-    resumeLink: "https://docs.google.com/document/d/1Sa_sK3RMusoezzgzxu8LkV16i2Jra2qd/edit?usp=sharing&ouid=113657039181859132688&rtpof=true&sd=true", // recommended: google drive file share link (change to "anyone on the internet can view")
+    name: "Daniel Umetor",
+    message: "I'm an aspiring software developer.",
+    basedLocation: "Cape Town",
+    resumeLink: "https://drive.google.com/file/d/1Q0_SpJS5-dRi6CxGGuwfstQzHL8cp3kZ/view", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
-        link: "images/initials.png", // use relative path from  parent directory -> ex: images/image.ext
+        link: "ihttps://danielumetor.github.io/allimages/images/mylogo.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
     },
-    portraitLink: 'images/portrait.jpg'
+    portraitLink: "https://danielumetor.github.io/allimages/20240422_092918.jpg"
 }
 
 const socialMediaLinks = {
-    github: "https://github.com/feifyKike",
-    linkedin: "https://www.linkedin.com/in/maxim-shelepov1",
-    medium: "https://medium.com/@mimaishel",
-    stackoverflow: "",
-    xtwitter: "https://twitter.com/mimaishel"
+    github: "https://github.com/DanielUmetor",
 } // to add any additional social media links check out the README.md or src/icons.js file
 
 // --- 😎 About Section ---
 const about = {
     autobiography: [
-        "My name is Maxim Shelepov and I'm a computer science student at North Carolina State University. I have a passion for coding in languages such as Python, Java, PHP, & Swift. Work in web development and have experience with Django and Laravel frameworks.",
-        "Responsible, organized, problem solver, and independent thinker. Work well in a team and a quick learner. Programming for 3+ years and have 4 years of experience in advanced mathematics such as calculus, statistics, and discrete mathematics. Currently working as a web development intern for my university."
+        "My name is Daniel Umetor and I'm a aspiring software developer at Life Choices. I have a passion for coding in languages such as HTML, CSS and JavaScript",
+        "I am Responsible, organized, problem solver, and independent thinker. Work well in a team and a quick learner."
     ], // Separated items are paragraphs
     techStack: [
-        "PHP",
-        "Python",
+        "HTML",
+        "CSS",
         "JavaScript",
-        "Vue.js",
-        "MySQL",
-        "Swift"
+        "Vue.js"
     ],
-    photo1Link: "images/portrait1.jpeg",
-    photo2Link: "images/portrait2.jpeg",
-    photo3Link: "images/portrait3.jpeg"
+    photo1Link: "images/daniel.jpg",
+    
 }
 
 // --- 🛡️ Experience Section ---
 const experiences = [
     {
-        position: "Web Dev Intern",
+        position: "Brand Ambassodor",
         company: {
-            name: "WolfTech",
+            name: "The Bed Shop",
             link: "https://tools.wolftech.ncsu.edu/support/index.php/WolfTech_Information_Technology"
         },
-        duration: "Aug 2022 - Present",
+        duration: "March - April 2024",
         bulletPoints: [
-            "Resolved issues and developed new tools within several university web applications (email automation, research discovery, educational resources, scheduling tools, and text-generative AI news sharing).",
-            "Achieved 100+ github code contributions as an intern on the team.",
-            "Currently rebuilding and modernizing the university digital sign manager and system."
+            "Duties include: Representing the brand as an expert on its products",
+            "Create awareness of different types of bed for different types of comfort.",
+            "Generating sales leads and increasing sales."
         ],
         hashtags: [
             "Laravel",
