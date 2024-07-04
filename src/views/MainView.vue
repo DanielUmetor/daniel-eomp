@@ -72,12 +72,14 @@ import { useRouter } from 'vue-router'
 import Navbar from '../components/Navbar.vue'
 import LandingView from './LandingView.vue'
 import AboutView from './AboutView.vue'
-import WorkEducationView from './WorkEducationView.vue'
+import ExperienceView from './ExperienceView.vue'
 import WorkView from './WorkView.vue'
 import ContactView from './ContactView.vue'
 import SplashView from './SplashView.vue'
+import SkillsViewVue from 'SkillsView.vue'
 
 import portfolio from '../portfolio'
+import SkillsViewVue from './SkillsView.vue'
 
 const router = useRouter()
 
