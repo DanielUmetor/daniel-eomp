@@ -16,7 +16,7 @@
 
 /* Custom HTML & CSS Logo */
 #custom-logo {
-    width: 8rem;
+    font-family: 'Reenie Beanie', cursive;
 }
 
 /* Mobile Behavior */
@@ -27,9 +27,9 @@ html {
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
     html {
-        background-color: black;
+        background-color: rgb(15, 23, 42);
     }
 }
 .img{
-    width: 20rem;
+    width: 7rem;
 }

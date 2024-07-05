@@ -17,8 +17,5 @@ import {
 /* add icons to the library */
 library.add(
     faGithub,
-    faLinkedin,
-    faMedium,
-    faStackOverflow,
-    faXTwitter
+
 )

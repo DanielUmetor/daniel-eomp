@@ -5,11 +5,14 @@
             <div class="flex-grow border-t border-black dark:border-white border-1"></div>
         </div>
         <div :class="['flex flex-col space-y-4 lg:grid lg:grid-cols-2 lg:gap-x-4 lg:space-y-0 mb-36 transition-all motion-reduce:transition-none duration-500 delay-300', visible ? 'translate-y-0 opacity-1 blur-0' : 'translate-y-4 opacity-0 blur-sm']">
+            <img src="../assets/images/bed shop.png" alt="">
             <ExperienceCard
                 v-for="(experience, index) in content"
                 :key="index" :experience="experience"
             />
+            <img src="../assets/images/hts.jpg" alt="">
         </div>
+    
     </section>
 </template>
 <script setup>

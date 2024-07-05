@@ -22,34 +22,36 @@ const splashScreen = true // recommended: for best behavior after refresh
 const greeting = {
     intro: "Hello 👋, my name is",
     name: "Daniel Umetor",
-    message: "I'm an aspiring software developer.",
+    message: "I'm an Aspiring Software Developer.",
     basedLocation: "Cape Town",
     resumeLink: "https://drive.google.com/file/d/1Q0_SpJS5-dRi6CxGGuwfstQzHL8cp3kZ/view", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
-        link: "ihttps://danielumetor.github.io/allimages/images/mylogo.png", // use relative path from  parent directory -> ex: images/image.ext
+        link: "images/mylogo.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
     },
-    portraitLink: "https://danielumetor.github.io/allimages/20240422_092918.jpg"
+    portraitLink: 'images/danielportrait.jpg'
 }
 
 const socialMediaLinks = {
-    github: "https://github.com/DanielUmetor",
+    github: "https://github.com/feifyKike",
+   
 } // to add any additional social media links check out the README.md or src/icons.js file
 
 // --- 😎 About Section ---
 const about = {
     autobiography: [
-        "My name is Daniel Umetor and I'm a aspiring software developer at Life Choices. I have a passion for coding in languages such as HTML, CSS and JavaScript",
+        "My name is Daniel Umetor and I'm a Aspiring software developer at Life Choices. I have a passion for coding in languages such as HTML, CSS and JavaScript.",
         "I am Responsible, organized, problem solver, and independent thinker. Work well in a team and a quick learner."
     ], // Separated items are paragraphs
     techStack: [
         "HTML",
         "CSS",
         "JavaScript",
-        "Vue.js"
+        "Vue.js",
+        "",
+        ""
     ],
-    photo1Link: "images/daniel.jpg",
-    
+    photo1Link: "images/danielu.jpg",
 }
 
 // --- 🛡️ Experience Section ---
@@ -58,41 +60,31 @@ const experiences = [
         position: "Brand Ambassodor",
         company: {
             name: "The Bed Shop",
-            link: "https://tools.wolftech.ncsu.edu/support/index.php/WolfTech_Information_Technology"
+            link: ""
         },
-        duration: "March - April 2024",
+        duration: "March 2024 - April 2024",
         bulletPoints: [
-            "Duties include: Representing the brand as an expert on its products",
-            "Create awareness of different types of bed for different types of comfort.",
-            "Generating sales leads and increasing sales."
+            "Promomting different types of beds",
+            "Informing customers about the different types of beds, which are for comfort and for back pain, and also directing them to the main shop.",
+            "Increasing brand awareness and maintaining a positive image of the brand."
         ],
         hashtags: [
-            "Laravel",
-            "PHP",
-            "MySQL",
-            "JS",
-            "Vue.js",
-            "HTML",
-            "Tailwind"
         ]
     },
     {
-        position: "Math Tutor",
+        position: "Matriculated",
         company: {
-            name: "Mathnasium",
-            link: "https://www.mathnasium.com"
+            name: "Bellville Technical High School",
+            link: ""
         },
-        duration: "Jan 2022 - Aug 2022",
+        duration: "2018 - 2023",
         bulletPoints: [
-            "Taught math to students elementary through high school covering topics from basic algebra to college-level calculus.",
-            "Directed the trajectory of the student's learning plan and math topic evaluation to facilitate success in their school math class.",
-            "Requested by many students and parents for routine weekly tutoring sessions in a system with a standard random weekly rotation."
+            "Did a Technical Based Curriculm consisting of:",
+            "Engineering and Graphics Design, Civil Services",
+            "Technical Mathematics and Technical Sciences"
         ],
         hashtags: [
-            "Calc 1-2",
-            "Algebra 1-3",
-            "Discrete Math",
-            "Statistics"
+        
         ]
     }
 ]
@@ -106,10 +98,14 @@ const works = [
         techStack: "",
         links: [
             {
-  
+                label: "",
+                type: "",
+                url: ""
             },
             {
-   
+                label: "",
+                type: "",
+                url: ""
             }
         ],
         imageLink: "images/awodwa.jpg",
@@ -118,7 +114,7 @@ const works = [
     {
         projectName: "Chelsea Julie",
         yearCompleted: "Classmate",
-        description: "Daniel's dedication and talent have shone brightly throughout our coding bootcamp. His knack for problem-solving and eagerness to help others have made him an invaluable part of our group. I can't wait to see the amazing things he'll achieve in the tech world",
+        description: "Daniel's dedication and talent have shone brightly throughout our coding bootcamp. His knack for problem-solving and eagerness to help others have made him an invaluable part of our group. I can't wait to see the amazing things he'll achieve in the tech world!",
         techStack: "",
         links: [
             {
@@ -147,28 +143,35 @@ const works = [
                 url: ""
             }
         ],
-        imageLink: "images/erin 2.png",
+        imageLink: "images/erin.jpg",
+        alignLeft: false
+    },
+     {
+        projectName: "Keira Kistensamy",
+        yearCompleted: "Classmate",
+        description: "Daniel's journey through the coding bootcamp has been nothing short of inspiring. His commitment to mastering new skills and solving complex problems sets him apart. As a friend, Daniel is always ready to share insights and support, making our learning experience richer. I have no doubt he'll make a significant impact in the tech world",
+        imageLink: "images/keira.jpg",
         alignLeft: false
     },
     {
-        projectName: "Keira Kistensamy",
+        projectName: "",
         yearCompleted: "",
-        description: "Daniel's journey through the coding bootcamp has been nothing short of inspiring. His commitment to mastering new skills and solving complex problems sets him apart. As a friend, Daniel is always ready to share insights and support, making our learning experience richer. I have no doubt he'll make a significant impact in the tech world",
+        description: "",
         techStack: "",
         links: [
             {
                 label: "",
-                type: "git",
-                url: "https://github.com/feifyKike/JS-API-Quiz"
+                type: "",
+                url: ""
             },
             {
                 label: "",
-                type: "external",
-                url: "https://codepen.io/Max_the_coder/pen/yLXZOYL" //https://codepen.io/Max_the_coder/pen/yLXZOYL
+                type: "",
+                url: ""
             }
         ],
-        imageLink: "images/keira.jpg",
-        alignLeft: true
+        imageLink: "",
+        alignLeft: false
     }
 ]
 
@@ -187,7 +190,7 @@ const contact = {
             email: "", // email takes precedance
             other: "https://forms.gle/W3MswTKsPWMxEbn58"
         },
-        responseTimeMessage: "...and I'll respond within the next 24hrs"
+        responseTimeMessage: "...and I'll resopnd within the next 24hrs"
     },
     formEmbedLink: "" // inclusion of this link will take precedance
 }

@@ -1,1 +1,1 @@
-Daniel VueJS Portfolio
+Daniel's Portfolio
