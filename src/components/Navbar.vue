@@ -11,10 +11,16 @@
                     <!-- Custom Logo -->
                     <div v-else>
                         <div class="flex items-center space-x-2 py-4 md:py-1 drop-shadow-lg bg-gradient-to-r from-[#fa3205] to-[#5301c5] bg-clip-text text-transparent">
+<<<<<<< HEAD
                             <p class="text-5xl md:text-7xl" id="custom-logo"></p>
                             <img class="img" src="https://danielumetor.github.io/allimages/images/mylogo.png" alt="">
                         
                          
+=======
+                            <p>&lt;</p>
+                            <p class="text-5xl md:text-7xl" id="custom-logo">M.S.</p>
+                            <p>/></p>
+>>>>>>> 34f961ffa75d44895b26affe012d16ea7f4a3c93
                         </div>
                     </div>
                 </div>
@@ -35,10 +41,10 @@
                         <router-link class="block py-2 pl-3 pr-4 hover:text-link-color" to="/#about-section">About</router-link>
                     </li>
                     <li :class="['transition-all motion-reduce:transition-none duration-500 delay-[100ms]', showTransition ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
-                        <router-link class="block py-2 pl-3 pr-4 hover:text-link-color" to="/#experience-section">Work/Education</router-link>
+                        <router-link class="block py-2 pl-3 pr-4 hover:text-link-color" to="/#experience-section">Experience</router-link>
                     </li>
                     <li :class="['transition-all motion-reduce:transition-none duration-500 delay-[150ms]', showTransition ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
-                        <router-link class="block py-2 pl-3 pr-4 hover:text-link-color" to="/#work-section">Testimonials</router-link>
+                        <router-link class="block py-2 pl-3 pr-4 hover:text-link-color" to="/#work-section">Work</router-link>
                     </li>
                     <li :class="['transition-all motion-reduce:transition-none duration-500 delay-[200ms]', showTransition ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">
                         <router-link class="block py-2 pl-3 pr-4 hover:text-link-color" to="/#contact-section">Contact</router-link>

@@ -19,9 +19,19 @@
                     <div>
                         <img :src="getImageUrl(content.photo1Link)" class="shadow-md" loading="lazy"/>
                     </div>
+<<<<<<< HEAD
                    
                 </div>
                 
+=======
+                    <div>
+                        <img :src="getImageUrl(content.photo2Link)" class="shadow-md" loading="lazy"/>
+                    </div>
+                </div>
+                <div>
+                    <img :src="getImageUrl(content.photo3Link)" class="shadow-md" loading="lazy"/>
+                </div>
+>>>>>>> 34f961ffa75d44895b26affe012d16ea7f4a3c93
             </div>
         </div>
     </section>
