@@ -11,16 +11,10 @@
                     <!-- Custom Logo -->
                     <div v-else>
                         <div class="flex items-center space-x-2 py-4 md:py-1 drop-shadow-lg bg-gradient-to-r from-[#fa3205] to-[#5301c5] bg-clip-text text-transparent">
-<<<<<<< HEAD
                             <p class="text-5xl md:text-7xl" id="custom-logo"></p>
                             <img class="img" src="https://danielumetor.github.io/allimages/images/mylogo.png" alt="">
                         
                          
-=======
-                            <p>&lt;</p>
-                            <p class="text-5xl md:text-7xl" id="custom-logo">M.S.</p>
-                            <p>/></p>
->>>>>>> 34f961ffa75d44895b26affe012d16ea7f4a3c93
                         </div>
                     </div>
                 </div>
