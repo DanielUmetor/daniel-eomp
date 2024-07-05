@@ -24,7 +24,17 @@
             <h1 class="text-3xl font-bold pr-2 sm:pr-5">Projects</h1>
             <div class="flex-grow border-t border-black dark:border-white border-1"></div>
         </div>
-        
+        <div class="card-container">
+            <div class="card">
+                <img src="../assets/images/BMIcalculator.png" alt="project">
+                <div class="card-content">
+                    <p>A calculator that checks your Body Mass Index</p>
+                    <a href="" class="btn">GitHub</a>
+                    <a href="" class="btn">Vercel</a>
+                </div>
+            </div>
+        </div>
+
         </section>
     </section>
 </template>
