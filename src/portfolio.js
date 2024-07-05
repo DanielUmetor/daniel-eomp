@@ -33,7 +33,7 @@ const greeting = {
 }
 
 const socialMediaLinks = {
-    github: "https://github.com/feifyKike",
+    github: "https://github.com/DanielUmetor",
    
 } // to add any additional social media links check out the README.md or src/icons.js file
 
@@ -154,12 +154,12 @@ const works = [
         links: [
             {
                 label: "",
-                type: "git",
+                type: "",
                 url: ""
             },
             {
                 label: "",
-                type: "external",
+                type: "",
                 url: ""
             }
         ],
